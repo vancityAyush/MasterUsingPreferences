@@ -1,7 +1,6 @@
 package com.ak11.masterusingpreferences;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.preference.PreferenceActivity;
 
 import androidx.annotation.Nullable;
