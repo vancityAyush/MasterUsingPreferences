@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Text Number 1 settings">
+
+        <CheckBoxPreference
+            android:defaultValue="Chunkfive"
+            android:key="CHECKBOX_FONT_NUMBER1_TEXT1"
+            android:title="Chunkfive.otf"
+            android:summary="This is font number 1"/>
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER2_TEXT1" android:title="FontleroyBrown"
+            android:summary="This is font number 2"
+            android:defaultValue="FontleroyBrown.tff"></CheckBoxPreference>
+
+        <CheckBoxPreference
+
+            android:key="CHECKBOX_FONT_NUMBER3_TEXT1" android:title="Wonderbar Demo"
+            android:summary="This is font number 3"
+            android:defaultValue="Wonderbar Demo.otf"
+            />
+
+        <ListPreference   android:key="FONT_SIZE_TEXT1"
+            android:title="specify the size of your fonts for TextView1"
+            android:dialogTitle="Choose one of these sizes"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

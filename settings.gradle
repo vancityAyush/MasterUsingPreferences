@@ -1,0 +1,2 @@
+rootProject.name = "Master Using Preferences"
+include ':app'
